@@ -6,3 +6,4 @@
   * [Делаем флешку мультизагрузочной, настройка Grub4Dos](https://www.bootdev.ru/2016/03/delayem-fleshku-multizagruzochnoy-nastroyka-grub4dos.html)
   * [Делаем флешку мультизагрузочной, настройка GRUB2 EFI](https://www.bootdev.ru/2016/07/delayem-fleshku-multizagruzochnoy-nastroyka-grub2.html)
   * [Для проверки: Загрузка с флешки в VirtualBox](https://www.bootdev.ru/2016/07/zagruzka-s-fleshki-v-virtualbox.html)
+    * [проблема: E_FAIL (0x80004005)](https://kompum.ru/sovetyi/virtualbox-reshenie-problemyi-s-oshibkoy-e_fail-0x80004005-pri-zapuske)
