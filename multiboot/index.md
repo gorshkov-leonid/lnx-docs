@@ -1,0 +1,8 @@
+* Серия статей от [bootdev.ru](https://www.bootdev.ru/)
+  * [Что такое загрузочный диск?](https://www.bootdev.ru/2015/11/chto-takoe-zagruzochniy-disk.html)
+  * [О структуре разделов для загрузочной флешки](https://www.bootdev.ru/2015/11/o-strukture-razdelov-dlya-zagruzochnoy-fleshki.html)
+  * [Создание загрузочных дисков и прочие полезные мелочи](https://www.bootdev.ru/2015/11/sozdayem-razdely-dlya-zagruzochnoy-fleshki.html)
+  * [Установка загрузчиков BIOS/EFI на флешку](https://www.bootdev.ru/2015/12/ustanovka-zagruzchikov-bios-efi-na-fleshku.html)
+  * [Делаем флешку мультизагрузочной, настройка Grub4Dos](https://www.bootdev.ru/2016/03/delayem-fleshku-multizagruzochnoy-nastroyka-grub4dos.html)
+  * [Делаем флешку мультизагрузочной, настройка GRUB2 EFI](https://www.bootdev.ru/2016/07/delayem-fleshku-multizagruzochnoy-nastroyka-grub2.html)
+  * [Для проверки: Загрузка с флешки в VirtualBox](https://www.bootdev.ru/2016/07/zagruzka-s-fleshki-v-virtualbox.html)
