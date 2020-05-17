@@ -19,3 +19,5 @@
   * https://www.youtube.com/watch?v=rQrfuahk1A4&list=PLtKQtLR6UfQ_CUlt9TZM5GiFiVpzazTMS
   * https://www.youtube.com/watch?v=-Oo291vzfv0
   * https://remontka.pro/multiboot-usb-easy2boot/
+* для простых линуксовых образова посмотреть другие утилиты
+  * https://www.pendrivelinux.com/multiboot-create-a-multiboot-usb-from-linux/
