@@ -31,7 +31,7 @@
     * /PerfLogs    
     * /Recovery
     * /Intel/Logs/*
-      * Чтобы удалить, нужно отключить службу `cphs` (`Intel(R) Content Protection HECI Service`)
+      * Чтобы удалить, нужно отключить службу `cphs` (`Intel(R) Content Protection HECI Service`, программа `C:\Windows\SysWow64\IntelCpHeciSvc.exe`)
   * Установка программ
   
 * Список моих программ
