@@ -22,7 +22,7 @@
     * /Windows/WinSxS  
     * /Users    
       * /Users/me/AppData/Local/Packages
-      * /Users/me/Public
+      * /Users/Public
     * /hyberfil.sys (удалится при настройке питания)
     * /pagefile.sys, /swapfile.sys 
       * Система -> Дополнительные параметры -> Быстродействие: Параметры -> Дополнительно -> Вируальная память: Изменить -> Выбрать диск и снять размеры
