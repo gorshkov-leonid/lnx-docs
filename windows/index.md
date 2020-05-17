@@ -54,6 +54,7 @@
   * [Tree Size](https://www.jam-software.com/treesize_free)
   * [Light Shot](https://app.prntscr.com/ru/index.html)
   * [7zip](https://www.7-zip.org/download.html)
+  * [Minitool Partition Wizard](https://www.partitionwizard.com/) - для разбивки дисков, бесплатная бесполезная, сразу ищем полнофункциональную
 
 * TMP
   * [Как переместить папку Пользователи (Users) на другой диск в Windows 10](http://www.oszone.net/27689/windows_10_relocate_users_folder)
