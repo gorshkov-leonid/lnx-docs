@@ -16,7 +16,7 @@
   * [gentoo.org: GRUB2/Chainloading](https://wiki.gentoo.org/wiki/GRUB2/Chainloading)
   * [https://xakep.ru/: "Как работает Linux: от нажатия кнопки включения до рабочего стола"](https://xakep.ru/2017/10/23/linux-boot-explained/#toc01.)
 
-#TMP
+# TMP
   
 * Подумать про easy2boot
   * https://www.youtube.com/watch?v=rQrfuahk1A4&list=PLtKQtLR6UfQ_CUlt9TZM5GiFiVpzazTMS
