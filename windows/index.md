@@ -20,11 +20,15 @@
     * Персонализация -> Пуск -> "Выбирете, какие папки будут отображаться в меню Пуск"
   * Перенос данных Windows на другой диск
     * /Users    
+      * /Users/me/AppData/Local/Packages
+      * /Users/me/Public
     * /hyberfil.sys (удалится при настройке питания)
-    * /pagefile.sys
+    * /pagefile.sys 
       * Система -> Дополнительные параметры -> Быстродействие: Параметры -> Дополнительно -> Вируальная память: Изменить -> Выбрать диск и задать 1G
     * /swapfile.sys
+    * /System Volume Information
     * /PerfLogs    
+    * /Recovery
     * /Windows/WinSxS    
   * Установка программ
   
