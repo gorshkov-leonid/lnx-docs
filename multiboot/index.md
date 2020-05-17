@@ -21,3 +21,5 @@
   * https://remontka.pro/multiboot-usb-easy2boot/
 * для простых линуксовых образова посмотреть другие утилиты
   * https://www.pendrivelinux.com/multiboot-create-a-multiboot-usb-from-linux/
+* Обзрные статьи:
+  * https://askubuntu.com/questions/395879/how-to-create-uefi-only-bootable-usb-live-media
