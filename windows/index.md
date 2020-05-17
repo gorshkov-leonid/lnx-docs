@@ -1,3 +1,17 @@
+* Список моих программ
+  * Kaspersky
+  * Microsof Office
+  * Google Chrome / Firefox
+  * Cisco AnyConnect
+  * Remote Desktop
+  * Intellij Idea
+  * Docker
+  * WSL(1/2)
+  * Total Commander
+  * Notepad++
+  * 7zip
+  * Light Shot
+  
 * [Полезные утилиты](./utils/index.md)
 * TMP
   * https://answers.microsoft.com/ru-ru/windows/forum/windows_10-security/%D0%BA%D0%B0%D0%BA/b15edd96-8596-41fa-8221-1acb6fafb009?auth=1
