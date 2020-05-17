@@ -23,9 +23,9 @@
       * /Users/me/AppData/Local/Packages
       * /Users/me/Public
     * /hyberfil.sys (удалится при настройке питания)
-    * /pagefile.sys 
-      * Система -> Дополнительные параметры -> Быстродействие: Параметры -> Дополнительно -> Вируальная память: Изменить -> Выбрать диск и задать 1G
-    * /swapfile.sys
+    * /pagefile.sys, /swapfile.sys 
+      * Система -> Дополнительные параметры -> Быстродействие: Параметры -> Дополнительно -> Вируальная память: Изменить -> Выбрать диск и снять размеры
+      * Для тонкой настройки статья: [Зачем нужен файл swapfile.sys](https://zen.yandex.ru/media/id/5a3211a177d0e6afcba2adfd/zachem-nujen-fail-swapfilesys-v-windows-10-i-mojno-li-ego-udalit-5b5041479b38ef00a9d98170)
     * /System Volume Information
     * /PerfLogs    
     * /Recovery
