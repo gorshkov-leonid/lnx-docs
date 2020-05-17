@@ -19,6 +19,7 @@
     * Персонализация -> Темы -> Параметры значков рабочего стола
     * Персонализация -> Пуск -> "Выбирете, какие папки будут отображаться в меню Пуск"
   * Перенос данных Windows на другой диск
+    * /Windows/WinSxS  
     * /Users    
       * /Users/me/AppData/Local/Packages
       * /Users/me/Public
@@ -29,7 +30,8 @@
     * /System Volume Information
     * /PerfLogs    
     * /Recovery
-    * /Windows/WinSxS    
+    * /Intel/Logs/*
+      * Чтобы удалить, нужно отключить службу `cphs` (`Intel(R) Content Protection HECI Service`)
   * Установка программ
   
 * Список моих программ
