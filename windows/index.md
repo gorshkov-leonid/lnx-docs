@@ -32,6 +32,9 @@
     * /Recovery
     * /Intel/Logs/*
       * Чтобы удалить, нужно отключить службу `cphs` (`Intel(R) Content Protection HECI Service`, программа `C:\Windows\SysWow64\IntelCpHeciSvc.exe`)
+      * Описание ``` 
+      Embedded in a number of computers with Intel chips starting with second generation core processors.  This file is part of "Intel Insider" and is involved in communication with something concerning content protection.  This program is centered primarily on HDMI films etc.  If you do not view such DRM protected content,  you can disable this service.
+      ```       
   * Установка программ
   
 * Список моих программ
