@@ -8,9 +8,7 @@
   * Docker
   * WSL(1/2)
   * Total Commander
-  * Notepad++
-  * 7zip
-  * Light Shot
+  * Notepad++ 
   
 * Полезные утилиты
   * [Tree Size](https://www.jam-software.com/treesize_free)
