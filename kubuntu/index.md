@@ -9,7 +9,7 @@
 1. VPN   
 1. Applications   
    1. [Google Chrome](https://www.google.com/intl/ru_ru/chrome/). Download `DEB` package and start installation
-   1. [uTorrent]()
+   1. [uTorrent](https://www.utorrent.com/intl/ru/downloads/linux)
    1. [IntellijIdea]()
    
 
