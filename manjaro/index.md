@@ -8,3 +8,4 @@
   ````
   * `openconnect corp.com` => `Server asked us to run CSD hostscan`: https://gist.github.com/l0ki000/56845c00fd2a0e76d688
   * https://together.jolla.com/question/218981/openconnect-with-second-factor-auth-is-not-possible-sfos-321/
+  * https://unix.stackexchange.com/questions/449174/connman-how-to-set-up-openconnect-vpn-with-csd-wrapper-correctly
