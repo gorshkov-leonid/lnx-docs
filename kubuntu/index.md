@@ -8,7 +8,7 @@
    2. `Keyboard > Layouts > Layout Indicator: Show flag`
 1. VPN   
 1. Applications   
-   1. [Google Chrome](https://www.google.com/intl/ru_ru/chrome/). Choose `DEB` package and `Open with Ark` to start installation
+   1. [Google Chrome](https://www.google.com/intl/ru_ru/chrome/). Download `DEB` package and start installation
    
 
 Useful Links:
