@@ -3,4 +3,5 @@
 * Загрузка
   * [Мультизагрузочная флешка](./multiboot/index.md)
 * [Настройка windows](./windows/index.md) 
+* [Настройка manjaro](./manjaro/index.md)
 
