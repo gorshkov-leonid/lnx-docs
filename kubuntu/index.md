@@ -10,10 +10,9 @@
 1. Applications   
    1. [Google Chrome](https://www.google.com/intl/ru_ru/chrome/). Download `DEB` package and start installation
    1. qBittorrent: `sudo apt install qbittorrent`
-   1. [IntellijIdea](https://www.jetbrains.com/ru-ru/idea/download/#section=linux), [treatment](https://rutracker.org/forum/viewtopic.php?t=5883972)
    1. git: `sudo apt install git`
-
+   1. [IntellijIdea](https://www.jetbrains.com/ru-ru/idea/download/#section=linux), [treatment](https://rutracker.org/forum/viewtopic.php?t=5883972)
+   1. [Zoom](https://zoom.us/download)
    
-
 Useful Links:
 * [13 Keyboard Shortcut Every Ubuntu 18.04 User Should Know](https://itsfoss.com/ubuntu-shortcuts/)
