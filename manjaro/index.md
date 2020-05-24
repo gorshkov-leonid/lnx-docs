@@ -1,6 +1,32 @@
 * VPN
-  * [Arch AnyConnect VPN installation issues.](https://bbs.archlinux.org/viewtopic.php?id=237621) :-(
-  * не помогло
+  * Installation problem: [Arch AnyConnect VPN installation issues.](https://bbs.archlinux.org/viewtopic.php?id=237621) :-(
+     1. chmod 777 ./anyconnect-linux64-4.6.04056-core-vpn-webdeploy-k9.sh
+     1. ./anyconnect-linux64-4.6.04056-core-vpn-webdeploy-k9.sh
+       * Expected error: `cannot create regular file '/etc/rc.d/vpnagentd': No such file or directory`
+       * See where it was extracted to: `Unarchiving installation files to /tmp/vpn.E8RrUl...`
+       * `mkdir ~/CiscoAnyConnectDist && sudo cp -r /tmp/vpn.E8RrUl ~/CiscoAnyConnectDist && cd ~/CiscoAnyConnectDist`
+       * 
+     1. 
+     1. aaa
+    
+  sudo ./vpn_install.sh
+  systemctl stop vpnagentd.service
+  systemctl status vpnagentd.service
+  systemctl stop vpnagentd.service
+  
+```  
+echo -e "[Service] 
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/etc/systemd/user/vpnagentd start
+ExecStop=/etc/systemd/user/vpnagentd stop
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target" > /etc/systemd/system/vpnagentd.service
+```
+  
+  не помогло
   ``` 
   pacman -S networkmanager-vpnc
   pacman -S networkmanager-openconnect
