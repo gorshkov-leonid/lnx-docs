@@ -13,7 +13,7 @@
      Restart=on-failure
 
      [Install]
-     WantedBy=multi-user.target" | sudo tee /etc/systemd/user/vpnagentd.service
+     WantedBy=multi-user.target" | sudo tee /etc/systemd/system/vpnagentd.service
      ```
      5. `systemctl daemon-reload`
      6. `sudo ./anyconnect-linux64-4.6.04056-core-vpn-webdeploy-k9.sh`
