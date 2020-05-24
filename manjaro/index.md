@@ -4,7 +4,7 @@
      1. ./anyconnect-linux64-4.6.04056-core-vpn-webdeploy-k9.sh
        * Expected error: `cannot create regular file '/etc/rc.d/vpnagentd': No such file or directory`
        * See where it was extracted to: `Unarchiving installation files to /tmp/vpn.E8RrUl...`
-       * `mkdir ~/CiscoAnyConnectDist && sudo cp -r /tmp/vpn.E8RrUl ~/CiscoAnyConnectDist && cd ~/CiscoAnyConnectDist`
+       * `sudo chmod 777 /tmp/vpn.E8RrUl/ && mkdir ~/CiscoAnyConnectDist && sudo cp -r /tmp/vpn.E8RrUl/vpn/* ~/CiscoAnyConnectDist && cd ~/CiscoAnyConnectDist`
        * 
      1. 
      1. aaa
