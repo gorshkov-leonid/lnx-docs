@@ -1,16 +1,16 @@
 * VPN
   * Installation problem: [Arch AnyConnect VPN installation issues.](https://bbs.archlinux.org/viewtopic.php?id=237621). 
-     a. `chmod 777 ./anyconnect-linux64-4.6.04056-core-vpn-webdeploy-k9.sh`
-     b. `./anyconnect-linux64-4.6.04056-core-vpn-webdeploy-k9.sh`
+     1. `chmod 777 ./anyconnect-linux64-4.6.04056-core-vpn-webdeploy-k9.sh`
+     2. `./anyconnect-linux64-4.6.04056-core-vpn-webdeploy-k9.sh`
        * Expected error: `cannot create regular file '/etc/rc.d/vpnagentd': No such file or directory`
        * See where it was extracted to: `Unarchiving installation files to /tmp/vpn.E8RrUl...`
        * Set this value to variable CAC_TMP=/tmp/vpn.E8RrUl
-     c. `sudo chmod 777 $CAC_TMP && mkdir ~/CiscoAnyConnectDist && sudo cp -r $CAC_TMP/vpn/* ~/CiscoAnyConnectDist && cd ~/CiscoAnyConnectDist`
-     d.  `sudo ./vpn_install.sh`
+     3. `sudo chmod 777 $CAC_TMP && mkdir ~/CiscoAnyConnectDist && sudo cp -r $CAC_TMP/vpn/* ~/CiscoAnyConnectDist && cd ~/CiscoAnyConnectDist`
+     4.  `sudo ./vpn_install.sh`
        * Expected error the same: `install: cannot create regular file '/etc/rc.d/vpnagentd': No such file or directory`
-     e.  `sudo ln -sf /etc/systemd/system /etc/rc.d/ && sudo ./vpn_install.sh`
+     5.  `sudo ln -sf /etc/systemd/system /etc/rc.d/ && sudo ./vpn_install.sh`
        * Expected error: `Failed to start vpnagentd.service: Unit vpnagentd.service not found.` 
-     f. Create Unit `vpnagentd.service`
+     6. Create Unit `vpnagentd.service`
      ```  
      sudo echo -e "[Service] 
      Type=oneshot
