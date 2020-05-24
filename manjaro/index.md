@@ -6,7 +6,8 @@
      4. Create Unit `vpnagentd.service`
      ```  
      sudo echo -e "[Service] 
-     Type=simple
+     Type=oneshot
+     RemainAfterExit=yes
      ExecStart=/etc/systemd/user/vpnagentd start
      ExecStop=/etc/systemd/user/vpnagentd stop
      Restart=on-failure
