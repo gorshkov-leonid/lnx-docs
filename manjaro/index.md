@@ -2,7 +2,7 @@
   * Installation problem: [Arch AnyConnect VPN installation issues.](https://bbs.archlinux.org/viewtopic.php?id=237621). 
      1. `cd ~/Downloads`
      2. `sudo chmod 777 ./anyconnect-linux64-4.6.04056-core-vpn-webdeploy-k9.sh`
-     3. `./anyconnect-linux64-4.6.04056-core-vpn-webdeploy-k9.sh`
+     3. `sudo ./anyconnect-linux64-4.6.04056-core-vpn-webdeploy-k9.sh`
        * Expected error: `cannot create regular file '/etc/rc.d/vpnagentd': No such file or directory`
        * See where it was extracted to: `Unarchiving installation files to /tmp/vpn.E8RrUl...`
        * Set this value to variable CAC_TMP=/tmp/vpn.E8RrUl
