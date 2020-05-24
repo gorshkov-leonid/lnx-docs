@@ -18,4 +18,5 @@
      5. `systemctl daemon-reload`
      6. `sudo ./anyconnect-linux64-4.6.04056-core-vpn-webdeploy-k9.sh`
      7.  `systemctl status vpnagentd`
-* TBD     
+* Skype
+   * --password-store=basic 
