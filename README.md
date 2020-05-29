@@ -4,5 +4,5 @@
   * [Мультизагрузочная флешка](./multiboot/index.md)
 * [Настройка Windows](./windows/index.md) 
 * [Настройка Kubuntu](./kubuntu/index.md)
-* [Настройка manjaro](./manjaro/index.md)
+* [Настройка Manjaro](./manjaro/index.md)
 
