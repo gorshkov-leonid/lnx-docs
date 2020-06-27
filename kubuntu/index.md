@@ -43,7 +43,7 @@
       # ntfs data (wd)
       UUID=01D631C6910C33F0                      /mnt/hdd/sdb1        ntfs    defaults        0       2
       ```
-   4 Delete old folders 
+   4. Delete old folders 
    ```bash
    sudo rm -r /mnt/hdd/sdb2/gorshkov
    sudo rm -r /mnt/hdd/sdb2/lost+found
