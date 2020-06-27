@@ -60,7 +60,10 @@
       1. `sudo apt-get install remmina remmina-plugin-*`
       1. https://coderwall.com/p/b982hw/linux-remote-desktop-multiple-monitor-support
       1. https://medium.com/analytics-vidhya/linux-remote-desktop-multiple-monitor-support-840974e9eb73
-   1. [Oracle Java](https://www.oracle.com/java). 
+   1. Open JDK
+      1. `sudo apt install default-jre`
+      1. `sudo apt install openjdk-11-jre-headless`
+   1. [Oracle JDK](https://www.oracle.com/java). 
       1. [Download](https://www.oracle.com/java/technologies/javase-downloads.html) `Debian Package` and install it.
       2. `sudo update-alternatives --install /usr/bin/java /usr/lib/jvm/jdk-11.0.7/bin/java 120`
       3. `sudo update-alternatives --install /usr/bin/javac /usr/lib/jvm/jdk-11.0.7/bin/javac 120`
