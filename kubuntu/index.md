@@ -60,7 +60,9 @@
       1. `sudo apt-get install remmina remmina-plugin-*`
       1. https://coderwall.com/p/b982hw/linux-remote-desktop-multiple-monitor-support
       1. https://medium.com/analytics-vidhya/linux-remote-desktop-multiple-monitor-support-840974e9eb73
-      1. 
+   1. [Maven](http://maven.apache.org). [How to install](https://www.apache-maven.ru/install.html): 
+      1. Download http://maven.apache.org/download.html
+      2. `sudo mkdir -p /opt/maven && sudo cp /home/gorshkov/Downloads/apache-maven-3.6.3-bin.tar.gz /opt/maven`
    
 Useful Links:
 * [13 Keyboard Shortcut Every Ubuntu 18.04 User Should Know](https://itsfoss.com/ubuntu-shortcuts/)
