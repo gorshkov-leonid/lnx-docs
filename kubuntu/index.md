@@ -93,8 +93,11 @@
          **OR**
          `echo "export M2_HOME=/opt/maven/apache-maven-3.6.3" >> ~/.profile && source ~/.profile`
       7. restart
-   1. npm 
-      1. [Установить через пакетный менеджер](https://nodejs.org/ru/download/package-manager/) (лучше nvm)
+   1. node
+      1. [Установить node через пакетный менеджер](https://nodejs.org/ru/download/package-manager/). Выбрать nvm.
+      2. `nvm install 10.13.0`
+   1. npm  
+      1. ...
    
 Useful Links:
 * [13 Keyboard Shortcut Every Ubuntu 18.04 User Should Know](https://itsfoss.com/ubuntu-shortcuts/)
