@@ -65,6 +65,7 @@
       2. `sudo mkdir -p /opt/maven && sudo cp /home/gorshkov/Downloads/apache-maven-3.6.3-bin.tar.gz /opt/maven`
       3. `sudo tar -xvf /opt/maven/apache-maven-3.6.3-bin.tar.gz`
       4. `sudo sh -c 'echo "export M2_HOME=/opt/maven/apache-maven-3.6.3" >> /etc/profile' && source /etc/profile`
+      5. `sudo update-alternatives --install /usr/bin/mvn mvn "${M2_HOME}/bin/mvn" 120`
    
 Useful Links:
 * [13 Keyboard Shortcut Every Ubuntu 18.04 User Should Know](https://itsfoss.com/ubuntu-shortcuts/)
