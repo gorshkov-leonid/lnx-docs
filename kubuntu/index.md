@@ -74,10 +74,9 @@
       8. `sudo update-alternatives --install /usr/bin/keytool keytool /usr/lib/jvm/jdk-11.0.7/bin/jstat 2000`
       9. `sudo update-alternatives --install /usr/bin/keytool keytool /usr/lib/jvm/jdk-11.0.7/bin/jmap 2000`
       10. `sudo update-alternatives --install /usr/bin/keytool keytool /usr/lib/jvm/jdk-11.0.7/bin/jstack 2000`
-      11. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jexec 2000`      
-      12. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jfr 2000`      
-      13. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jjs 2000`      
-      14. check `sudo update-alternatives --config java`      
+      11. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jfr 2000`      
+      12. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jjs 2000`      
+      13. check `sudo update-alternatives --config java`      
       100. + [How to INSTALL TO SERVER](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-20-04-ru):
    1. [Maven](http://maven.apache.org). [How to install](https://www.apache-maven.ru/install.html): 
       1. Download http://maven.apache.org/download.html
