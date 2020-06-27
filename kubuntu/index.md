@@ -48,7 +48,8 @@
    sudo rm -r /mnt/hdd/sdb2/gorshkov
    sudo rm -r /mnt/hdd/sdb2/lost+found
    ```
-1. VPN   
+1. VPN 
+   1. Cisco AnyConnect 
 1. Applications   
    1. [Google Chrome](https://www.google.com/intl/ru_ru/chrome/). Download `DEB` package and start installation
    1. qBittorrent: `sudo apt install qbittorrent`
