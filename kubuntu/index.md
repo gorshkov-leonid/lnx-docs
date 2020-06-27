@@ -57,9 +57,10 @@
    1. [IntellijIdea(see 2020.1.1)](https://www.jetbrains.com/ru-ru/idea/download/#section=linux), [treatment](https://rutracker.org/forum/viewtopic.php?t=5883972)
    1. [Zoom](https://zoom.us/download)
    1. Remote Desktops:
-      a. https://coderwall.com/p/b982hw/linux-remote-desktop-multiple-monitor-support
-      a. https://medium.com/analytics-vidhya/linux-remote-desktop-multiple-monitor-support-840974e9eb73
-      a. 
+      1. `sudo apt-get install remmina remmina-plugin-*`
+      1. https://coderwall.com/p/b982hw/linux-remote-desktop-multiple-monitor-support
+      1. https://medium.com/analytics-vidhya/linux-remote-desktop-multiple-monitor-support-840974e9eb73
+      1. 
    
 Useful Links:
 * [13 Keyboard Shortcut Every Ubuntu 18.04 User Should Know](https://itsfoss.com/ubuntu-shortcuts/)
