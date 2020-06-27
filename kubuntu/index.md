@@ -63,7 +63,7 @@
    1. Open JDK
       1. `sudo apt install default-jre`
       1. `sudo apt install openjdk-11-jre-headless`
-   1. [Oracle JDK](https://www.oracle.com/java). 
+   1. [Oracle JDK](https://www.oracle.com/java). See [article](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-20-04-ru).
       1. [Download](https://www.oracle.com/java/technologies/javase-downloads.html) `Debian Package` and install it.
       2. `sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-11.0.7/bin/java 2000`
       3. `sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-11.0.7/bin/javac 2000`
@@ -77,7 +77,7 @@
       11. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jfr 2000`      
       12. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jjs 2000`      
       13. check `sudo update-alternatives --config java`      
-      100. + [How to INSTALL TO SERVER](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-20-04-ru):
+      14. ... 
    1. [Maven](http://maven.apache.org). [How to install](https://www.apache-maven.ru/install.html): 
       1. Download http://maven.apache.org/download.html
       2. `sudo mkdir -p /opt/maven && sudo cp /home/gorshkov/Downloads/apache-maven-3.6.3-bin.tar.gz /opt/maven`
