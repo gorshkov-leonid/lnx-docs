@@ -65,11 +65,28 @@
       1. `sudo apt install openjdk-11-jre-headless`
    1. [Oracle JDK](https://www.oracle.com/java). 
       1. [Download](https://www.oracle.com/java/technologies/javase-downloads.html) `Debian Package` and install it.
-      2. `sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-11.0.7/bin/java 120`
-      3. `sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-11.0.7/bin/javac 120`
-      4. `sudo update-alternatives --install /usr/bin/keytool keytool /usr/lib/jvm/jdk-11.0.7/bin/keytool 120`
-      5. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jarsigner 120`      
-      6. check `sudo update-alternatives --config java`
+      2. `sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-11.0.7/bin/java 2000`
+      3. `sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-11.0.7/bin/javac 2000`
+      4. `sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-11.0.7/bin/jar 2000`
+      5. `sudo update-alternatives --install /usr/bin/keytool keytool /usr/lib/jvm/jdk-11.0.7/bin/keytool 2000`
+      6. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jarsigner 2000`      
+      7. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jexec 2000`      
+      8. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jfr 2000`      
+      9. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jjs 2000`      
+      10. check `sudo update-alternatives --config java`
+      
+      
+update-alternatives: используется /usr/lib/jvm/java-11-openjdk-amd64/bin/rmid для предоставления /usr/bin/rmid (rmid) в автоматическом режиме
+update-alternatives: используется /usr/lib/jvm/java-11-openjdk-amd64/bin/java для предоставления /usr/bin/java (java) в автоматическом режиме
+update-alternatives: используется /usr/lib/jvm/java-11-openjdk-amd64/bin/keytool для предоставления /usr/bin/keytool (keytool) в автоматическом режиме
+update-alternatives: используется /usr/lib/jvm/java-11-openjdk-amd64/bin/jjs для предоставления /usr/bin/jjs (jjs) в автоматическом режиме
+update-alternatives: используется /usr/lib/jvm/java-11-openjdk-amd64/bin/pack200 для предоставления /usr/bin/pack200 (pack200) в автоматическом режиме
+update-alternatives: используется /usr/lib/jvm/java-11-openjdk-amd64/bin/rmiregistry для предоставления /usr/bin/rmiregistry (rmiregistry) в автоматическом режиме
+update-alternatives: используется /usr/lib/jvm/java-11-openjdk-amd64/bin/unpack200 для предоставления /usr/bin/unpack200 (unpack200) в автоматическом режиме
+update-alternatives: используется /usr/lib/jvm/java-11-openjdk-amd64/bin/jfr для предоставления /usr/bin/jfr (jfr) в автоматическом режиме
+update-alternatives: используется /usr/lib/jvm/java-11-openjdk-amd64/lib/jexec для предоставления /usr/bin/jexec (jexec) в автоматическом режиме
+
+      
       100. + [How to INSTALL TO SERVER](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-20-04-ru):
    1. [Maven](http://maven.apache.org). [How to install](https://www.apache-maven.ru/install.html): 
       1. Download http://maven.apache.org/download.html
