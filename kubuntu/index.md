@@ -70,10 +70,13 @@
       4. `sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-11.0.7/bin/jar 2000`
       5. `sudo update-alternatives --install /usr/bin/keytool keytool /usr/lib/jvm/jdk-11.0.7/bin/keytool 2000`
       6. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jarsigner 2000`      
-      7. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jexec 2000`      
-      8. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jfr 2000`      
-      9. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jjs 2000`      
-      10. check `sudo update-alternatives --config java`
+      7. `sudo update-alternatives --install /usr/bin/keytool keytool /usr/lib/jvm/jdk-11.0.7/bin/jstat 2000`
+      8. `sudo update-alternatives --install /usr/bin/keytool keytool /usr/lib/jvm/jdk-11.0.7/bin/jmap 2000`
+      9. `sudo update-alternatives --install /usr/bin/keytool keytool /usr/lib/jvm/jdk-11.0.7/bin/jstack 2000`
+      10. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jexec 2000`      
+      11. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jfr 2000`      
+      12. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jjs 2000`      
+      13. check `sudo update-alternatives --config java`
       
       
 update-alternatives: используется /usr/lib/jvm/java-11-openjdk-amd64/bin/rmid для предоставления /usr/bin/rmid (rmid) в автоматическом режиме
