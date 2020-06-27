@@ -60,6 +60,9 @@
       1. `sudo apt-get install remmina remmina-plugin-*`
       1. https://coderwall.com/p/b982hw/linux-remote-desktop-multiple-monitor-support
       1. https://medium.com/analytics-vidhya/linux-remote-desktop-multiple-monitor-support-840974e9eb73
+   1. [Java](https://www.oracle.com/java)   
+      1. [Download](https://www.oracle.com/java/technologies/javase-downloads.html)
+      2. 
    1. [Maven](http://maven.apache.org). [How to install](https://www.apache-maven.ru/install.html): 
       1. Download http://maven.apache.org/download.html
       2. `sudo mkdir -p /opt/maven && sudo cp /home/gorshkov/Downloads/apache-maven-3.6.3-bin.tar.gz /opt/maven`
