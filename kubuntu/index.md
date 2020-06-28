@@ -52,6 +52,7 @@
    1. Cisco AnyConnect 
 1. Applications   
    1. `sudo apt install curl`
+   1. `sudo apt install nano`
    1. [Google Chrome](https://www.google.com/intl/ru_ru/chrome/). Download `DEB` package and start installation
    1. qBittorrent: `sudo apt install qbittorrent`
    1. git: `sudo apt install git`
