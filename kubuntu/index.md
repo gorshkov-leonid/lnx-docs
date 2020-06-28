@@ -101,7 +101,7 @@
       3. `npm set editor mcedit`
       3. `npm config set @mycorp:registry "<corp-registry-url>"`
    1. [docker](https://docker.com)
-      1. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+      1. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/). To be better use repositories.
    
 Useful Links:
 * [13 Keyboard Shortcut Every Ubuntu 18.04 User Should Know](https://itsfoss.com/ubuntu-shortcuts/)
