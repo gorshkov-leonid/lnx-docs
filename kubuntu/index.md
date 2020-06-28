@@ -53,9 +53,10 @@
 1. Applications   
    1. `sudo apt install curl`
    1. `sudo apt install nano`
+   1. `sudo apt install mc`
+   1. `sudo apt install git`
    1. [Google Chrome](https://www.google.com/intl/ru_ru/chrome/). Download `DEB` package and start installation
    1. qBittorrent: `sudo apt install qbittorrent`
-   1. git: `sudo apt install git`
    1. [IntellijIdea(see 2020.1.1)](https://www.jetbrains.com/ru-ru/idea/download/#section=linux), [treatment](https://rutracker.org/forum/viewtopic.php?t=5883972)
    1. [Zoom](https://zoom.us/download)
    1. Remote Desktops:
@@ -97,7 +98,8 @@
    1. node/npm
       1. [Установить node через пакетный менеджер](https://nodejs.org/ru/download/package-manager/). Выбрать nvm.
       2. `nvm install 10.13.0`
-      3. `npm config set registry "<url>"`
+      3. `npm set editor mcedit`
+      3. `npm config set @mycorp:registry "<corp-registry-url>"`
    
 Useful Links:
 * [13 Keyboard Shortcut Every Ubuntu 18.04 User Should Know](https://itsfoss.com/ubuntu-shortcuts/)
