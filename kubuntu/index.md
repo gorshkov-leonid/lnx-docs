@@ -55,6 +55,7 @@
    1. `sudo apt install nano`
    1. `sudo apt install mc`
    1. `sudo apt install git`
+   1. `sudo apt install net-tools` (ifconfig)
    1. [Google Chrome](https://www.google.com/intl/ru_ru/chrome/). Download `DEB` package and start installation
    1. qBittorrent: `sudo apt install qbittorrent`
    1. [IntellijIdea(see 2020.1.1)](https://www.jetbrains.com/ru-ru/idea/download/#section=linux), [treatment](https://rutracker.org/forum/viewtopic.php?t=5883972)
