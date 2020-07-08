@@ -102,7 +102,11 @@
       3. `npm config set @mycorp:registry "<corp-registry-url>"`
    1. [docker](https://docker.com)
       1. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/). To be better use repositories.
-   1. [kubctl](https://kubernetes.io/docs/tasks/tools/install-kubectl/), [https://kubernetes.io/docs/tasks/tools/install-minikube/](minikube), [KVM](https://wiki.debian.org/KVM#Installation)
+   1. minikube
+      1. [kubctl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+      1. [https://kubernetes.io/docs/tasks/tools/install-minikube/](minikube)
+      1. [KVM](https://wiki.debian.org/KVM#Installation) or [KVM on Ubuntu](https://help.ubuntu.com/community/KVM/Installation)
+      
    
 Useful Links:
 * [13 Keyboard Shortcut Every Ubuntu 18.04 User Should Know](https://itsfoss.com/ubuntu-shortcuts/)
