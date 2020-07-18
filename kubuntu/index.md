@@ -105,12 +105,12 @@
       1. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/). To be better use repositories.
       2. Run docker on host network:
       ```
-         touch ~/.bash_aliases
-         cat >~/.bash_aliases <<EOL
-         shopt -s expand_aliases
-         alias dcrun='sudo docker run --network=host'
-         alias dcbuild='sudo docker build --network host'
-         EOL
+      touch ~/.bash_aliases
+      cat >~/.bash_aliases <<EOL
+      shopt -s expand_aliases
+      alias dcrun='sudo docker run --network=host'
+      alias dcbuild='sudo docker build --network host'
+      EOL
       ```
    1. minikube
       1. [kubctl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
