@@ -6,6 +6,10 @@
 1. Keyboard Layouts
    1. `Keyboard > Layouts > Add`
    2. `Keyboard > Layouts > Layout Indicator: Show flag`
+1. Make the same as in Windows 
+   ```
+   sudo timedatectl set-local-rtc 1
+   ```
 1. fstab
    1. *prerequizites*: /home already mounted to separate partition
    2. copy user's content and /var to new place:
