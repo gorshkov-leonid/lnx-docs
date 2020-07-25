@@ -79,13 +79,13 @@
       1. [Download](https://www.oracle.com/java/technologies/javase-downloads.html) `Debian Package` and install it.
       2. `sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-11.0.7/bin/java 2000`
       3. `sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-11.0.7/bin/javac 2000`
-      4. `sudo update-alternatives --install /usr/bin/javac javap /usr/lib/jvm/jdk-11.0.7/bin/javap 2000`
-      5. `sudo update-alternatives --install /usr/bin/javac jar /usr/lib/jvm/jdk-11.0.7/bin/jar 2000`
+      4. `sudo update-alternatives --install /usr/bin/javap javap /usr/lib/jvm/jdk-11.0.7/bin/javap 2000`
+      5. `sudo update-alternatives --install /usr/bin/jar jar /usr/lib/jvm/jdk-11.0.7/bin/jar 2000`
       6. `sudo update-alternatives --install /usr/bin/keytool keytool /usr/lib/jvm/jdk-11.0.7/bin/keytool 2000`
       7. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jarsigner 2000`      
-      8. `sudo update-alternatives --install /usr/bin/keytool jstat /usr/lib/jvm/jdk-11.0.7/bin/jstat 2000`
-      9. `sudo update-alternatives --install /usr/bin/keytool jmap /usr/lib/jvm/jdk-11.0.7/bin/jmap 2000`
-      10. `sudo update-alternatives --install /usr/bin/keytool jstack /usr/lib/jvm/jdk-11.0.7/bin/jstack 2000`
+      8. `sudo update-alternatives --install /usr/bin/jstat jstat /usr/lib/jvm/jdk-11.0.7/bin/jstat 2000`
+      9. `sudo update-alternatives --install /usr/bin/jmap jmap /usr/lib/jvm/jdk-11.0.7/bin/jmap 2000`
+      10. `sudo update-alternatives --install /usr/bin/jstack jstack /usr/lib/jvm/jdk-11.0.7/bin/jstack 2000`
       11. `sudo update-alternatives --install /usr/bin/jfr jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jfr 2000`      
       12. `sudo update-alternatives --install /usr/bin/jjs jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jjs 2000`      
       13. check `sudo update-alternatives --config java`      
