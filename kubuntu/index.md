@@ -96,7 +96,7 @@
       
    1. [Maven](http://maven.apache.org). [How to install](https://www.apache-maven.ru/install.html): 
       1. Download http://maven.apache.org/download.html
-      2. `sudo mkdir -p /opt/maven && sudo cp /home/gorshkov/Downloads/apache-maven-3.6.3-bin.tar.gz /opt/maven`
+      2. `sudo mkdir -p /opt/maven && sudo cp /home/gorshkov/Downloads/apache-maven-*.tar.gz /opt/maven`
       3. `sudo tar -xvf /opt/maven/apache-maven-3.6.3-bin.tar.gz`
       4. `sudo update-alternatives --install /usr/bin/mvn mvn "${M2_HOME}/bin/mvn" 120`
       5. check `sudo update-alternatives --config mvn`
