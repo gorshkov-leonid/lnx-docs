@@ -111,21 +111,62 @@
       3. `npm config set @mycorp:registry "<corp-registry-url>"`
    1. [docker](https://docker.com)
       1. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/). To be better use repositories.
-      2. Run docker on host network:
-      ```
-      touch ~/.bash_aliases
-      cat >~/.bash_aliases <<EOL
-      shopt -s expand_aliases
-      alias dcrun='sudo docker run --network=host'
-      alias dcbuild='sudo docker build --network host'
-      EOL
-      ```
-      3. [post-install](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
+      2. [post-install](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
+      To have ability of run without sudo:
       ```
       sudo groupadd docker
       sudo usermod -aG docker $USER
-      
+    
       ```
+      Then relogin.
+      3. Support VPN
+         1. Make sure that `jq` installed
+         ```
+         sudo apt  install jq
+         ```
+         2. Prepare script that can be run every time when VPN turned on/off
+         ```
+         mkdir -p "$(systemd-path user-binaries)"
+         export DOCKER_CONF_SH="$(systemd-path user-binaries)/docker-conf.sh"
+
+         cat > $DOCKER_CONF_SH << "EOF"
+
+         if [[ ! -f /etc/docker/daemon.json ]]; then echo '{ "bip": "172.18.1.1/24", "fixed-cidr": "172.18.1.1/24" }' | sudo tee /etc/docker/daemon.json > /dev/null; fi
+
+         export RESOLVE_CONF="$(cat /etc/resolv.conf)"
+         export DAEMON_JSON="$(cat /etc/docker/daemon.json)" 
+
+         export DNS_JSON="[$( echo "$RESOLVE_CONF" | grep nameserver | cut -d" " -f2 | sed -e 's/.*/"&"/; /127\.0\.0\.53/d' | paste -sd "," - | awk '{print $1",\"8.8.8.8\",\"8.8.4.4\""}' )]" 
+         export DAEMON_JSON="$(echo "$DAEMON_JSON" | awk '{if (!$1) print "{}"; else print $0;}' | jq '.dns = '$DNS_JSON)"
+
+         export DOMAIN_JSON="[$( echo "$RESOLVE_CONF" | grep search | cut -d" " -f2 | sed 's/.*/"&"/' | paste -sd "," - )]" 
+         export DAEMON_JSON="$(echo "$DAEMON_JSON" | awk '{if (!$1) print "{}"; else print $0;}' | jq '.["dns-search"] = '$DOMAIN_JSON)"
+
+         echo "$DAEMON_JSON" | sudo tee /etc/docker/daemon.json > /dev/null
+
+         EOF
+
+         chmod 740 $DOCKER_CONF_SH
+         ```
+         3. Run `docker-conf.sh && systemctl restart docker.service` to apply VPN changes
+      4. Force docker to be run on host:    
+         ```
+         cat | sudo tee -a ~/.bashrc /root/.bashrc > /dev/null << "EOF"
+
+         function docker() {
+             if [ "$1" == "run" ]; then
+                 bash -c 'command docker run --network host '"${@:2}"
+             elif [ "$1" == "build" ]; then
+                 bash -c 'command docker build --network host '"${@:2}"
+             else
+                 command docker "$@"
+             fi
+         }
+         export -f docker
+         
+         EOF         
+         ```
+         Then restart terminal.
    1. minikube
       1. [install-kubctl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
       1. [install-minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)
