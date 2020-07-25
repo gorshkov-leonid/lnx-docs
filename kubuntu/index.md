@@ -117,13 +117,15 @@
       EOL
       ```
    1. minikube
-      1. [kubctl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-      1. [https://kubernetes.io/docs/tasks/tools/install-minikube/](minikube)
+      1. [install-kubctl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+      1. [install-minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)
       1. [Minikube + KVM/Installation](https://minikube.sigs.k8s.io/docs/drivers/kvm2/), [KVM(debian)](https://wiki.debian.org/KVM#Installation)
          ```
          sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
          sudo apt-get install virt-manager
          ```
+         * --driver=none(host) / docker / podman(docker under root) / kvm2    
+         *  --kvm-gpu=true
       
    
 Useful Links:
