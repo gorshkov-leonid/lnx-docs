@@ -89,9 +89,9 @@
       11. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jfr 2000`      
       12. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jjs 2000`      
       13. check `sudo update-alternatives --config java`      
-      14. sudo sh -c 'echo "export JAVA_HOME=/usr/lib/jvm/jdk-11.0.7" >> /etc/profile' && source /etc/profile 
+      14. ```sudo sh -c 'echo "export JAVA_HOME=/usr/lib/jvm/jdk-11.0.7" >> /etc/profile' && source /etc/profile``` 
           **OR**
-          `echo "export JAVA2_HOME=/usr/lib/jvm/jdk-11.0.7" >> ~/.profile && source ~/.profile`
+          ```echo "export JAVA2_HOME=/usr/lib/jvm/jdk-11.0.7" >> ~/.profile && source ~/.profile```
       16. restart    
       
    1. [Maven](http://maven.apache.org). [How to install](https://www.apache-maven.ru/install.html): 
