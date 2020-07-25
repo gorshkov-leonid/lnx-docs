@@ -10,6 +10,10 @@
    ```
    sudo timedatectl set-local-rtc 1
    ```
+1. enable `su` for root
+   ```
+   sudo passwd root
+   ```
 1. fstab
    1. *prerequizites*: /home already mounted to separate partition
    2. copy user's content and /var to new place:
@@ -120,7 +124,7 @@
       ```
       sudo groupadd docker
       sudo usermod -aG docker $USER
-      newgrp docker 
+      
       ```
    1. minikube
       1. [install-kubctl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
