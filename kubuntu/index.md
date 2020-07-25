@@ -19,7 +19,7 @@
    2. copy user's content and /var to new place:
    ```bash
    sudo mkdir /home/home && sudo mkdir /home/var
-   sudo cp -a /home/gorshkov /home/home
+   sudo cp -a /home/$USER /home/home
    sudo cp -a /home/lost+found /home/home
    sudo cp -a /var/* /home/home/var
    ```
@@ -53,7 +53,7 @@
       ```
    4. Delete old folders 
    ```bash
-   sudo rm -r /mnt/hdd/sdb2/gorshkov
+   sudo rm -r /mnt/hdd/sdb2/$USER
    sudo rm -r /mnt/hdd/sdb2/lost+found
    ```
 1. VPN 
@@ -96,7 +96,7 @@
       
    1. [Maven](http://maven.apache.org). [How to install](https://www.apache-maven.ru/install.html): 
       1. Download http://maven.apache.org/download.html
-      2. `sudo mkdir -p /opt/maven && sudo cp /home/gorshkov/Downloads/apache-maven-*.tar.gz /opt/maven`
+      2. `sudo mkdir -p /opt/maven && sudo cp /home/$USER/Downloads/apache-maven-*.tar.gz /opt/maven`
       3. `sudo tar -xvf /opt/maven/apache-maven-3.6.3-bin.tar.gz`
       4. `sudo update-alternatives --install /usr/bin/mvn mvn "${M2_HOME}/bin/mvn" 120`
       5. check `sudo update-alternatives --config mvn`
