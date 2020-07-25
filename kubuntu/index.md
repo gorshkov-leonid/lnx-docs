@@ -116,6 +116,12 @@
       alias dcbuild='sudo docker build --network host'
       EOL
       ```
+      3. [post-install](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
+      ```
+      sudo groupadd docker
+      sudo usermod -aG docker $USER
+      newgrp docker 
+      ```
    1. minikube
       1. [install-kubctl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
       1. [install-minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)
