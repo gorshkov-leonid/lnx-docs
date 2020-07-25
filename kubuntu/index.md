@@ -112,13 +112,12 @@
    1. [docker](https://docker.com)
       1. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/). To be better use repositories.
       2. [post-install](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
-      To have ability of run without sudo:
+      To have ability of run without sudo run this script and then relogin:
       ```
       sudo groupadd docker
       sudo usermod -aG docker $USER
     
       ```
-      Then relogin.
       3. Support VPN
          1. Make sure that `jq` installed
          ```
@@ -149,7 +148,7 @@
          chmod 740 $DOCKER_CONF_SH
          ```
          3. Run `docker-conf.sh && systemctl restart docker.service` to apply VPN changes
-      4. Force docker to be run on host:    
+      4. To make docker to be run on host run this script and then reopen terminal:    
          ```
          cat | sudo tee -a ~/.bashrc /root/.bashrc > /dev/null << "EOF"
 
@@ -166,7 +165,6 @@
          
          EOF         
          ```
-         Then restart terminal.
    1. minikube
       1. [install-kubctl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
       1. [install-minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)
