@@ -6,7 +6,7 @@
 1. Keyboard Layouts
    1. `Keyboard > Layouts > Add`
    2. `Keyboard > Layouts > Layout Indicator: Show flag`
-1. Make the same as in Windows 
+1. Make time the same as in Windows 
    ```
    sudo timedatectl set-local-rtc 1
    ```
