@@ -153,12 +153,22 @@
          cat | sudo tee -a ~/.bashrc /root/.bashrc > /dev/null << "EOF"
 
          function docker() {
-             if [ "$1" == "run" ]; then
-                 bash -c 'command docker run --network host '"${@:2}"
-             elif [ "$1" == "build" ]; then
-                 bash -c 'command docker build --network host '"${@:2}"
+             export COMM=
+             for i in "${@:2}"; do
+               case "$i" in
+                   *\'*)
+                       export COMM="$COMM \"$i\""
+                       ;;
+                   *) 
+                       export COMM="$COMM '$i'"
+                   ;;              
+               esac
+             done
+    
+             if [ "$1" == "run" -o "$1" == "build" ]; then
+                 bash -c 'command docker '"$1 --network host $COMM"
              else
-                 command docker "$@"
+                 bash -c 'command docker '"$1 $COMM"
              fi
          }
          export -f docker
