@@ -69,6 +69,7 @@
    1. [Telegram](https://desktop.telegram.org/)
    1. qBittorrent: `sudo apt install qbittorrent`
    1. [IntellijIdea(see 2020.1.1)](https://www.jetbrains.com/ru-ru/idea/download/#section=linux), [treatment](https://rutracker.org/forum/viewtopic.php?t=5883972)
+   1. [Visual Studio Code](https://code.visualstudio.com/download)
    1. [Zoom](https://zoom.us/download)
    1. Remote Desktops:
       1. `sudo apt-get install remmina remmina-plugin-*`
