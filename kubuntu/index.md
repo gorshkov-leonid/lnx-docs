@@ -10,9 +10,13 @@
    ```
    sudo timedatectl set-local-rtc 1
    ```
-1. enable `su` for root
+1. enable `su` for root(bad practice)
    ```
    sudo passwd root
+   ```
+   to remove call:
+   ```
+   sudo passwd -d root
    ```
 1. fstab
    1. *prerequizites*: /home already mounted to separate partition
