@@ -75,6 +75,7 @@
    1. `sudo apt install git`
    1. `sudo apt install net-tools` (ifconfig)
    1. [Google Chrome](https://www.google.com/intl/ru_ru/chrome/). Download `DEB` package and start installation
+      1. To set as default browser go to `System Settings > Applications > Default Applications > Web Browser`
    1. [Skype](https://www.skype.com/ru/get-skype/)
    1. [Telegram](https://desktop.telegram.org/)
    1. qBittorrent: `sudo apt install qbittorrent`
