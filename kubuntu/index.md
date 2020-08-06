@@ -124,7 +124,7 @@
       3. `npm set editor mcedit`
       3. `npm config set @mycorp:registry "<corp-registry-url>"`
    1. [docker](https://docker.com)
-      1. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/). To be better use repositories.
+      1. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/). Better to use repositories.
       2. [post-install](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
       To have ability of run without sudo run this script and then relogin:
       ```
