@@ -177,7 +177,7 @@
                esac
              done
     
-             if [ "$1" == "run" -o "$1" == "build" ]; then
+             if [ "$1" == "build" ]; then
                  bash -c 'command docker '"$1 --network host $COMM"
              else
                  bash -c 'command docker '"$1 $COMM"
