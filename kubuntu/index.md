@@ -62,6 +62,11 @@
    ```
 1. VPN 
    1. Cisco AnyConnect 
+   1. If CiscoAnyConnect disconnected then use script and restart gui client
+      ```
+      sudo service vpnagentd restart 
+      sudo service NetworkManager restart
+      ```
 1. Applications   
    1. `sudo apt install curl`
    1. `sudo apt install nano`
