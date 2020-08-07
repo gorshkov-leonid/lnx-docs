@@ -60,6 +60,14 @@
       1. Winows Store -> (Search...) -> Ubuntu  
          1. If error `0x80073D05` occured then open `%localappdata%` and `Packages` in it, futher rename folder that looks like  `CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc`
          1. Alternative way here: https://wiki.ubuntu.com/WSL
+         1. Set memory limit and other parameters listed here: https://docs.microsoft.com/ru-ru/windows/wsl/wsl-config#configure-global-options-with-wslconfig
+            1. `C:\Users\<yourUserName>\.wslconfig`
+            ```
+            [wsl2]
+            kernel=C:\\temp\\myCustomKernel
+            memory=4GB # Limits VM memory in WSL 2 to 4 GB
+            processors=2 # Makes the WSL 2 VM use two virtual processors
+            ```            
       1. Check that Ubuntu installed under WSL2
          1. `wsl --list --verbose`
          1. Expected output:
@@ -74,7 +82,6 @@
       1. Relogin
       1. Setup for WSL (https://docs.docker.com/docker-for-windows/wsl/)
          1. Enable Ubuntu here `Settings > Resources > WSL Integration`
-
    * Links 
       1. https://aka.ms/wsl2
       1. https://aka.ms/wsl2kernel 
