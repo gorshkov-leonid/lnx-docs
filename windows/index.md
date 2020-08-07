@@ -34,8 +34,6 @@
       * Описание ``` 
       Embedded in a number of computers with Intel chips starting with second generation core processors.  This file is part of "Intel Insider" and is involved in communication with something concerning content protection.  This program is centered primarily on HDMI films etc.  If you do not view such DRM protected content,  you can disable this service.
       ```       
-  * Установка программ
-  
 * Список моих программ
   * Kaspersky
   * Microsof Office
@@ -47,7 +45,42 @@
   * WSL(1/2)
   * Total Commander
   * Notepad++ 
-  
+
+* WSL
+   * Enable WSL2 (https://aka.ms/wsl2): 
+      1. Requirements: Windows 10 2004 build 19041 or higher
+      1. Open console under Admin
+      1. `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+      1. `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+      1. `wsl --set-default-version 2`
+      1. Restart
+      1. Update kernel: https://aka.ms/wsl2kernel  
+      1. Relogin
+   * Ubuntu WSL
+      1. Winows Store -> (Search...) -> Ubuntu  
+         1. If error `0x80073D05` occured then open `%localappdata%` and `Packages` in it, futher rename folder that looks like  `CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc`
+         1. Alternative way here: https://wiki.ubuntu.com/WSL
+      1. Check that Ubuntu installed under WSL2
+         1. `wsl --list --verbose`
+         1. Expected output:
+         ```
+           NAME                   STATE           VERSION
+           Ubuntu                 Running         2
+         ```    
+      1. Run Ubuntu, wait installation to be finished then specify username and password
+      1. Get fresh updates: `sudo apt update`
+   * Docker under WSL
+      1. https://get.docker.com/
+      1. Relogin
+      1. Setup for WSL (https://docs.docker.com/docker-for-windows/wsl/)
+         1. Enable Ubuntu here `Settings > Resources > WSL Integration`
+
+   * Links 
+      1. https://aka.ms/wsl2
+      1. https://aka.ms/wsl2kernel 
+      1. https://docs.docker.com/docker-for-windows/wsl/
+      1. https://ubuntu.com/blog/ubuntu-on-wsl-2-is-generally-available  
+
 * Полезные утилиты
   * [IObit Unlocker](https://ru.iobit.com/iobit-unlocker.php)
   * [Tree Size](https://www.jam-software.com/treesize_free)
