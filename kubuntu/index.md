@@ -75,11 +75,12 @@
    1. `sudo apt install git`
    1. `sudo apt install net-tools` (ifconfig)
    1. graphic editors
-      1. `apt-get install pinta`
+      1. `sudo apt-get install pinta`
       2. krita
    1. Hardware info
-      1. `apt-get install hardinfo`
-      1. `apt-get install cpu-x`
+      1. `sudo apt-get install hardinfo`
+      1. `sudo apt-get install cpu-x`
+      1. `sudo apt install lm-sensors` -> `sudo sensors-detect` - датчики в консоли
    1. [Google Chrome](https://www.google.com/intl/ru_ru/chrome/). Download `DEB` package and start installation
       1. To set as default browser go to `System Settings > Applications > Default Applications > Web Browser`
    1. [Skype](https://www.skype.com/ru/get-skype/)
