@@ -80,7 +80,7 @@
    1. Hardware info
       1. `sudo apt-get install hardinfo`
       1. `sudo apt-get install cpu-x`
-      1. `sudo apt install lm-sensors` -> `sudo sensors-detect` - датчики в консоли
+      1. `sudo apt install lm-sensors` -> `sudo sensors-detect` -> `sudo sensors` (sensors in console)
    1. [Google Chrome](https://www.google.com/intl/ru_ru/chrome/). Download `DEB` package and start installation
       1. To set as default browser go to `System Settings > Applications > Default Applications > Web Browser`
    1. [Skype](https://www.skype.com/ru/get-skype/)
