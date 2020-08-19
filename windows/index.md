@@ -85,7 +85,7 @@
    * DISPLAY
       1. `export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0`
       1. [vcxsrv](https://sourceforge.net/projects/vcxsrv/)
-         1. XLaunch - specify settings for display 0
+         1. XLaunch - specify settings for display 0, use `disable access control` checkbox
          1. XMing
          1. https://github.com/microsoft/WSL/issues/4793
    * Links 
