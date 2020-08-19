@@ -87,6 +87,7 @@
       1. [vcxsrv](https://sourceforge.net/projects/vcxsrv/)
          1. XLaunch - specify settings for display 0
          1. XMing
+         1. https://github.com/microsoft/WSL/issues/4793
    * Links 
       1. https://aka.ms/wsl2
       1. https://aka.ms/wsl2kernel 
