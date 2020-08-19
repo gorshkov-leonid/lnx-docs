@@ -74,6 +74,7 @@
    1. `sudo apt install mc`
    1. `sudo apt install git`
    1. `sudo apt install net-tools` (ifconfig)
+   1. [xclip as pbcopy](https://garywoodfine.com/use-pbcopy-on-ubuntu/)
    1. graphic editors
       1. `sudo apt-get install pinta`
       2. krita
