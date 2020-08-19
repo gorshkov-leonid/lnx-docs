@@ -82,6 +82,11 @@
       1. Relogin
       1. Setup for WSL (https://docs.docker.com/docker-for-windows/wsl/)
          1. Enable Ubuntu here `Settings > Resources > WSL Integration`
+   * DISPLAY
+      1. `export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0`
+      1. [vcxsrv](https://sourceforge.net/projects/vcxsrv/)
+         1. XLaunch - specify settings for display 0
+         1. XMing
    * Links 
       1. https://aka.ms/wsl2
       1. https://aka.ms/wsl2kernel 
