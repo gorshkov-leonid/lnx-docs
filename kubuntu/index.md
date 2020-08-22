@@ -18,8 +18,10 @@
    ```
    sudo passwd -d root
    ```
-1. Boot order
-   1. https://help.ubuntu.ru/wiki/grub
+1. [Boot order](https://help.ubuntu.ru/wiki/grub)
+   1. Find necessary menu enrty `cat /boot/grub/grub.cfg | grep menuentry`. E. g. `menuentry 'Windows Boot Manager .... $menuentry_id_option 'osprober-efi-568C-FEE0'`
+   1. Set `GRUB_DEFAULT` in `/etc/default/grub` to chosen entry's id
+   1. Call `sudo update-grub`
 1. fstab
    1. *prerequizites*: /home already mounted to separate partition
    2. copy user's content and /var to new place:
