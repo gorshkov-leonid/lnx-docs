@@ -18,6 +18,8 @@
    ```
    sudo passwd -d root
    ```
+1. Boot order
+   1. https://help.ubuntu.ru/wiki/grub
 1. fstab
    1. *prerequizites*: /home already mounted to separate partition
    2. copy user's content and /var to new place:
