@@ -6,6 +6,6 @@
    * `sudo service network-manager restart`
    * `sudo service networking restart`
  * nmcli
-   * [https://habr.com/ru/company/vdsina/blog/512282/](Управляем сетевыми подключениями в Linux с помощью консольной утилиты nmcli)
+   * [Управляем сетевыми подключениями в Linux с помощью консольной утилиты nmcli](https://habr.com/ru/company/vdsina/blog/512282/)
    * `nmcli dev show | grep DNS` - current dns
    * 
