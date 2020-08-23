@@ -118,28 +118,29 @@
       1. `sudo update-alternatives --install /usr/bin/jfr jarsigner ${JAVA_HOME}/bin/jfr 2000`      
       1. `sudo update-alternatives --install /usr/bin/jjs jarsigner ${JAVA_HOME}/bin/jjs 2000`      
       1. check `sudo update-alternatives --config java`      
-      1. ```sudo sh -c 'echo "export JAVA_HOME=${JAVA_HOME}" >> /etc/profile' && source /etc/profile``` 
+      1. ```sudo sh -c 'echo "export JAVA_HOME='"${JAVA_HOME}"'" >> /etc/profile' && source /etc/profile``` 
           **OR**
           ```echo "export JAVA2_HOME=${JAVA_HOME}" >> ~/.profile && source ~/.profile```
       1. restart          
    1. [Maven](http://maven.apache.org). [How to install](https://www.apache-maven.ru/install.html): 
       1. Download http://maven.apache.org/download.html
-      2. `sudo mkdir -p /opt/maven && sudo cp /home/$USER/Downloads/apache-maven-*.tar.gz /opt/maven`
-      3. `sudo tar -xvf /opt/maven/apache-maven-3.6.3-bin.tar.gz`
-      4. `sudo update-alternatives --install /usr/bin/mvn mvn "${M2_HOME}/bin/mvn" 120`
-      5. check `sudo update-alternatives --config mvn`
-      6. `sudo sh -c 'echo "export M2_HOME=/opt/maven/apache-maven-3.6.3" >> /etc/profile' && source /etc/profile`
+      1. `export ver=3.6.3`
+      1. `sudo mkdir -p /opt/maven && sudo cp /home/$USER/Downloads/apache-maven-*.tar.gz /opt/maven`
+      1. `sudo tar -xvf /opt/maven/apache-maven-${ver}-bin.tar.gz`
+      1. `sudo update-alternatives --install /usr/bin/mvn mvn "${M2_HOME}/bin/mvn" 120`
+      1. check `sudo update-alternatives --config mvn`
+      1. `sudo sh -c 'echo "export M2_HOME=/opt/maven/apache-maven-'"${ver}"'" >> /etc/profile' && source /etc/profile`
          **OR**
-         `echo "export M2_HOME=/opt/maven/apache-maven-3.6.3" >> ~/.profile && source ~/.profile`
-      7. restart
+         `echo "export M2_HOME=/opt/maven/apache-maven-${ver}" >> ~/.profile && source ~/.profile`
+      1. restart
    1. node/npm
       1. [Установить node через пакетный менеджер](https://nodejs.org/ru/download/package-manager/). Выбрать nvm.
-      2. `nvm install 10.13.0`
-      3. `npm set editor mcedit`
-      3. `npm config set @mycorp:registry "<corp-registry-url>"`
+      1. `nvm install 10.13.0`
+      1. `npm set editor mcedit`
+      1. `npm config set @mycorp:registry "<corp-registry-url>"`
    1. [docker](https://docker.com)
       1. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/). Better to use repositories.
-      2. [post-install](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
+      1. [post-install](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
       To have ability of run without sudo run this script and then relogin:
       ```
       sudo groupadd docker
