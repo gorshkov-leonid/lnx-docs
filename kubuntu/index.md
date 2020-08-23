@@ -94,6 +94,10 @@
    1. [Telegram](https://desktop.telegram.org/)
    1. qBittorrent: `sudo apt install qbittorrent`
    1. [IntellijIdea(see 2020.1.1)](https://www.jetbrains.com/ru-ru/idea/download/#section=linux), [treatment](https://rutracker.org/forum/viewtopic.php?t=5883972)
+      1. `tar -xzvf ideaIU-2020.1.tar.gz`
+      1. `sudo mkdir -p /opt/jetbrains/idea`
+      1. `sudo mv ~/Downloads/idea-IU-201.6668.121/ /opt/jetbrains/idea/idea-2020.1`
+      1. `sudo /opt/jetbrains/idea/idea-2020.1/bin/idea.sh`
    1. [Visual Studio Code](https://code.visualstudio.com/download)
    1. [Zoom](https://zoom.us/download)
    1. Remote Desktops:
