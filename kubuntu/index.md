@@ -223,3 +223,6 @@
 Useful Links:
 * [13 Keyboard Shortcut Every Ubuntu 18.04 User Should Know](https://itsfoss.com/ubuntu-shortcuts/)
 * https://github.com/moby/moby/issues/23910#issuecomment-247964052
+* touch /etc/NetworkManager/dnsmasq.d/docker-bridge.conf
+* echo 'listen-address=_*2.168.1*9.0' | sudo tee -a '/etc/NetworkManager/dnsmasq.d/docker-bridge.conf'
+
