@@ -105,23 +105,23 @@
       1. `sudo apt install openjdk-11-jre-headless`
    1. [Oracle JDK](https://www.oracle.com/java). See [article](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-20-04-ru).
       1. [Download](https://www.oracle.com/java/technologies/javase-downloads.html) `Debian Package` and install it.
-      2. `sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-11.0.7/bin/java 2000`
-      3. `sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-11.0.7/bin/javac 2000`
-      4. `sudo update-alternatives --install /usr/bin/javap javap /usr/lib/jvm/jdk-11.0.7/bin/javap 2000`
-      5. `sudo update-alternatives --install /usr/bin/jar jar /usr/lib/jvm/jdk-11.0.7/bin/jar 2000`
-      6. `sudo update-alternatives --install /usr/bin/keytool keytool /usr/lib/jvm/jdk-11.0.7/bin/keytool 2000`
-      7. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jarsigner 2000`      
-      8. `sudo update-alternatives --install /usr/bin/jstat jstat /usr/lib/jvm/jdk-11.0.7/bin/jstat 2000`
-      9. `sudo update-alternatives --install /usr/bin/jmap jmap /usr/lib/jvm/jdk-11.0.7/bin/jmap 2000`
-      10. `sudo update-alternatives --install /usr/bin/jstack jstack /usr/lib/jvm/jdk-11.0.7/bin/jstack 2000`
-      11. `sudo update-alternatives --install /usr/bin/jfr jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jfr 2000`      
-      12. `sudo update-alternatives --install /usr/bin/jjs jarsigner /usr/lib/jvm/jdk-11.0.7/bin/jjs 2000`      
-      13. check `sudo update-alternatives --config java`      
-      14. ```sudo sh -c 'echo "export JAVA_HOME=/usr/lib/jvm/jdk-11.0.7" >> /etc/profile' && source /etc/profile``` 
+      1. `export JAVA_HOME=/usr/lib/jvm/jdk-14.0.2`
+      1. `sudo update-alternatives --install /usr/bin/java java ${JAVA_HOME}/bin/java 2000`
+      1. `sudo update-alternatives --install /usr/bin/javac javac ${JAVA_HOME}/bin/javac 2000`
+      1. `sudo update-alternatives --install /usr/bin/javap javap ${JAVA_HOME}/bin/javap 2000`
+      1. `sudo update-alternatives --install /usr/bin/jar jar ${JAVA_HOME}/bin/jar 2000`
+      1. `sudo update-alternatives --install /usr/bin/keytool keytool ${JAVA_HOME}/bin/keytool 2000`
+      1. `sudo update-alternatives --install /usr/bin/jarsigner jarsigner ${JAVA_HOME}/bin/jarsigner 2000`      
+      1. `sudo update-alternatives --install /usr/bin/jstat jstat ${JAVA_HOME}/bin/jstat 2000`
+      1. `sudo update-alternatives --install /usr/bin/jmap jmap ${JAVA_HOME}/bin/jmap 2000`
+      1. `sudo update-alternatives --install /usr/bin/jstack jstack ${JAVA_HOME}/bin/jstack 2000`
+      1. `sudo update-alternatives --install /usr/bin/jfr jarsigner ${JAVA_HOME}/bin/jfr 2000`      
+      1. `sudo update-alternatives --install /usr/bin/jjs jarsigner ${JAVA_HOME}/bin/jjs 2000`      
+      1. check `sudo update-alternatives --config java`      
+      1. ```sudo sh -c 'echo "export JAVA_HOME=${JAVA_HOME}" >> /etc/profile' && source /etc/profile``` 
           **OR**
-          ```echo "export JAVA2_HOME=/usr/lib/jvm/jdk-11.0.7" >> ~/.profile && source ~/.profile```
-      16. restart    
-      
+          ```echo "export JAVA2_HOME=${JAVA_HOME}" >> ~/.profile && source ~/.profile```
+      1. restart          
    1. [Maven](http://maven.apache.org). [How to install](https://www.apache-maven.ru/install.html): 
       1. Download http://maven.apache.org/download.html
       2. `sudo mkdir -p /opt/maven && sudo cp /home/$USER/Downloads/apache-maven-*.tar.gz /opt/maven`
