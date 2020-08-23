@@ -8,4 +8,5 @@
  * nmcli
    * [Управляем сетевыми подключениями в Linux с помощью консольной утилиты nmcli](https://habr.com/ru/company/vdsina/blog/512282/)
    * `nmcli dev show | grep DNS` - current dns
-   * 
+   * sudo nmcli networking off && sudo nmcli networking on -restart nm
+
