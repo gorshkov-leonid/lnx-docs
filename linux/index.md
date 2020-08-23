@@ -5,3 +5,7 @@
    * `sudo sed -i 's/^dns=dnsmasq/#&/' /etc/NetworkManager/NetworkManager.conf` 
    * `sudo service network-manager restart`
    * `sudo service networking restart`
+ * nmcli
+   * [https://habr.com/ru/company/vdsina/blog/512282/](Управляем сетевыми подключениями в Linux с помощью консольной утилиты nmcli)
+   * `nmcli dev show | grep DNS` - current dns
+   * 
