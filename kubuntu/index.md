@@ -126,7 +126,7 @@
       1. Download http://maven.apache.org/download.html
       1. `export ver=3.6.3`
       1. `sudo mkdir -p /opt/maven && sudo cp /home/$USER/Downloads/apache-maven-*.tar.gz /opt/maven`
-      1. `sudo tar -xvf /opt/maven/apache-maven-${ver}-bin.tar.gz`
+      1. `sudo tar -xvf "/opt/maven/apache-maven-${ver}-bin.tar.gz"`
       1. `sudo update-alternatives --install /usr/bin/mvn mvn "${M2_HOME}/bin/mvn" 120`
       1. check `sudo update-alternatives --config mvn`
       1. `sudo sh -c 'echo "export M2_HOME=/opt/maven/apache-maven-'"${ver}"'" >> /etc/profile' && source /etc/profile`
