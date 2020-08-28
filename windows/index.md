@@ -83,20 +83,20 @@
          1. Relogin
          1. Setup for WSL (https://docs.docker.com/docker-for-windows/wsl/)
             1. Enable Ubuntu here `Settings > Resources > WSL Integration`
-      1. `~/.bashrc`...
+      1.DISPLAY
+         1. `export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0`
+         1. [vcxsrv](https://sourceforge.net/projects/vcxsrv/)
+            1. XLaunch - specify settings for display 0, use `disable access control` checkbox
+            1. XMing
+            1. https://github.com/microsoft/WSL/issues/4793
+      1. `~/.bashrc` miscellaneous
          ```
-         export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
          alias python=python3
          alias pip=pip3
          alias pbcopy='xclip -selection clipboard'
          alias pbpaste='xclip -selection clipboard -o'         
          ```
-   * DISPLAY
-      1. `export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0`
-      1. [vcxsrv](https://sourceforge.net/projects/vcxsrv/)
-         1. XLaunch - specify settings for display 0, use `disable access control` checkbox
-         1. XMing
-         1. https://github.com/microsoft/WSL/issues/4793
+            
    * Links 
       1. https://aka.ms/wsl2
       1. https://aka.ms/wsl2kernel 
