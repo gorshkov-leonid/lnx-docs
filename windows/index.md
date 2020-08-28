@@ -77,11 +77,20 @@
          ```    
       1. Run Ubuntu, wait installation to be finished then specify username and password
       1. Get fresh updates: `sudo apt update`
-   * Docker under WSL
-      1. https://get.docker.com/
-      1. Relogin
-      1. Setup for WSL (https://docs.docker.com/docker-for-windows/wsl/)
-         1. Enable Ubuntu here `Settings > Resources > WSL Integration`
+   * Setting under WSL
+      1. Docker
+         1. https://get.docker.com/
+         1. Relogin
+         1. Setup for WSL (https://docs.docker.com/docker-for-windows/wsl/)
+            1. Enable Ubuntu here `Settings > Resources > WSL Integration`
+      1. `~/.bashrc`...
+         ```
+         export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+         alias python=python3
+         alias pip=pip3
+         alias pbcopy='xclip -selection clipboard'
+         alias pbpaste='xclip -selection clipboard -o'         
+         ```
    * DISPLAY
       1. `export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0`
       1. [vcxsrv](https://sourceforge.net/projects/vcxsrv/)
