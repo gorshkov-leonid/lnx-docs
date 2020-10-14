@@ -96,7 +96,11 @@
          alias pbcopy='xclip -selection clipboard'
          alias pbpaste='xclip -selection clipboard -o'         
          ```
-            
+      1. localhost: 
+        1. https://github.com/microsoft/WSL/issues/5298#issuecomment-695181844
+        1. https://github.com/microsoft/WSL/issues/5298#issuecomment-653651103
+        1. https://github.com/microsoft/WSL/issues/4150#issuecomment-504209723
+           
    * Links 
       1. https://aka.ms/wsl2
       1. https://aka.ms/wsl2kernel 
