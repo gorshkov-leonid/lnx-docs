@@ -1,3 +1,4 @@
+* Ventory https://www.ventoy.net/en/index.html
 * Серия статей от [bootdev.ru](https://www.bootdev.ru/)
   * [Что такое загрузочный диск?](https://www.bootdev.ru/2015/11/chto-takoe-zagruzochniy-disk.html)
   * [О структуре разделов для загрузочной флешки](https://www.bootdev.ru/2015/11/o-strukture-razdelov-dlya-zagruzochnoy-fleshki.html)
