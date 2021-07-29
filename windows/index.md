@@ -100,7 +100,8 @@
         1. https://github.com/microsoft/WSL/issues/5298#issuecomment-695181844
         1. https://github.com/microsoft/WSL/issues/5298#issuecomment-653651103
         1. https://github.com/microsoft/WSL/issues/4150#issuecomment-504209723
-           
+   * Tricks
+      1. If disk has not been mounted then use `mount -t drvfs` E: /mnt/e
    * Links 
       1. https://aka.ms/wsl2
       1. https://aka.ms/wsl2kernel 
