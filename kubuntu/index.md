@@ -125,7 +125,8 @@
       1. ```sudo sh -c 'echo "export JAVA_HOME='"${JAVA_HOME}"'" >> /etc/profile' && source /etc/profile``` 
           **OR**
           ```echo "export JAVA2_HOME=${JAVA_HOME}" >> ~/.profile && source ~/.profile```
-      1. restart          
+      1. restart   
+   1. AdoptJDK: https://adoptopenjdk.net/installation.html#linux-pkg       
    1. [Maven](http://maven.apache.org). [How to install](https://www.apache-maven.ru/install.html): 
       1. Download http://maven.apache.org/download.html
       1. `export ver=3.6.3`
