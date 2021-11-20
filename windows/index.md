@@ -109,7 +109,7 @@
       1. https://ubuntu.com/blog/ubuntu-on-wsl-2-is-generally-available  
 
 * Полезные утилиты
-  * [IObit Unlocker](https://ru.iobit.com/iobit-unlocker.php)
+  * [IObit Unlocker](https://ru.iobit.com/iobit-unlocker.php) [vulnerabilities](https://theevilbit.github.io/posts/iobit_unlocker_lpe/)
   * [Tree Size](https://www.jam-software.com/treesize_free)
   * [Light Shot](https://app.prntscr.com/ru/index.html)
   * [7zip](https://www.7-zip.org/download.html)
