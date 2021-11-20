@@ -6,5 +6,3 @@
 * [Настройка Kubuntu](./kubuntu/index.md)
 * [Настройка Manjaro](./manjaro/index.md)
 * [Linux](./linux/index.md)
-
-
