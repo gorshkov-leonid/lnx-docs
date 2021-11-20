@@ -7,3 +7,5 @@
 * [Настройка Manjaro](./manjaro/index.md)
 * [Linux](./linux/index.md)
 
+
+
