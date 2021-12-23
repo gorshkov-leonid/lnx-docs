@@ -139,7 +139,7 @@
       1. check `sudo update-alternatives --config mvn`
       1. restart
    1. node/npm
-      1. [Установить node через пакетный менеджер](https://nodejs.org/ru/download/package-manager/). Выбрать nvm.
+      1. [Установить node через пакетный менеджер](https://nodejs.org/ru/download/package-manager/). Выбрать nvm или nvs для windows.
       1. `nvm install 10.13.0`
       1. `npm set editor mcedit`
       1. `npm config set @mycorp:registry "<corp-registry-url>"`
