@@ -219,7 +219,8 @@
          ```
          * --driver=none(host) / docker / podman(docker under root) / kvm2    
          *  --kvm-gpu=true
-      
+ 1. Scripts
+    1. Find process by port `nsenter -n/proc/11021/ns/net netstat -tulpn`     
    
 Useful Links:
 * [13 Keyboard Shortcut Every Ubuntu 18.04 User Should Know](https://itsfoss.com/ubuntu-shortcuts/)
