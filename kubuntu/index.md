@@ -143,6 +143,7 @@
       1. `nvm install 10.13.0`
       1. `npm set editor mcedit`
       1. `npm config set @mycorp:registry "<corp-registry-url>"`
+      1. See subtle configuration here: https://gist.github.com/gorshkov-leonid/b55072d6876acecf43dabaf7f1e72cf0#configuration
    1. [docker](https://docker.com)
       1. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/). Better to use repositories.
       1. [post-install](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
