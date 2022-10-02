@@ -7,5 +7,5 @@
 * [Настройка Manjaro](./manjaro/index.md)
 * [Linux](./linux/index.md)
 
-
+...https://wiki.archlinux.org/title/HiDPI
 
