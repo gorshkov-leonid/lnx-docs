@@ -1,6 +1,6 @@
 * Действия
   * Отключение Defender
-  * [Отключение телеметрии | https://learn.microsoft.com/en-us/answers/questions/459823/how-can-i-turn-off-telemetry.html?childToView=903657#comment-903657]
+  * [Отключение телеметрии](https://learn.microsoft.com/en-us/answers/questions/459823/how-can-i-turn-off-telemetry.html?childToView=903657#comment-903657)
   * Изменение параметров электропитания
     * В режиме администратора `powercfg -h off`
     * Панель управления -> Оборудование и звук -> Электропитание
