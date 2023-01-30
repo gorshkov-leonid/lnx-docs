@@ -141,7 +141,7 @@
    1. node/npm
       1. [Установить node через пакетный менеджер](https://nodejs.org/ru/download/package-manager/). Выбрать nvm или nvs для windows.
       1. `nvm install 10.13.0`
-      2. to switch version call: `nvm alias default 16.17.1`
+      2. to switch version call: `nvm use 16.17.1 && nvm alias default 16.17.1`
       3. `npm set editor mcedit`
       4. `npm config set @mycorp:registry "<corp-registry-url>"`
       5. See subtle configuration here: https://gist.github.com/gorshkov-leonid/b55072d6876acecf43dabaf7f1e72cf0#configuration
