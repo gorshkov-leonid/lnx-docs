@@ -141,9 +141,10 @@
    1. node/npm
       1. [Установить node через пакетный менеджер](https://nodejs.org/ru/download/package-manager/). Выбрать nvm или nvs для windows.
       1. `nvm install 10.13.0`
-      1. `npm set editor mcedit`
-      1. `npm config set @mycorp:registry "<corp-registry-url>"`
-      1. See subtle configuration here: https://gist.github.com/gorshkov-leonid/b55072d6876acecf43dabaf7f1e72cf0#configuration
+      2. to switch version call: `nvm alias default 16.17.1`
+      3. `npm set editor mcedit`
+      4. `npm config set @mycorp:registry "<corp-registry-url>"`
+      5. See subtle configuration here: https://gist.github.com/gorshkov-leonid/b55072d6876acecf43dabaf7f1e72cf0#configuration
    1. [docker](https://docker.com)
       1. [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/). Better to use repositories.
       1. [post-install](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
