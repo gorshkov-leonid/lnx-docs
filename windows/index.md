@@ -97,10 +97,11 @@
          alias pbcopy='xclip -selection clipboard'
          alias pbpaste='xclip -selection clipboard -o'         
          ```
+      1. See subtle configuration here: https://gist.github.com/gorshkov-leonid/b55072d6876acecf43dabaf7f1e72cf0#configuration
       1. localhost: 
-        1. https://github.com/microsoft/WSL/issues/5298#issuecomment-695181844
-        1. https://github.com/microsoft/WSL/issues/5298#issuecomment-653651103
-        1. https://github.com/microsoft/WSL/issues/4150#issuecomment-504209723
+         1. https://github.com/microsoft/WSL/issues/5298#issuecomment-695181844
+         1. https://github.com/microsoft/WSL/issues/5298#issuecomment-653651103
+         1. https://github.com/microsoft/WSL/issues/4150#issuecomment-504209723
    * Tricks
       1. If disk has not been mounted then use `mount -t drvfs` E: /mnt/e
    * Links 
