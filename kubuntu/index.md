@@ -140,7 +140,7 @@
       1. `sudo update-alternatives --install /usr/bin/mvn mvn "${M2_HOME}/bin/mvn" 120`
       1. check `sudo update-alternatives --config mvn`
       1. restart
-         1. [Bash completions | https://github.com/juven/maven-bash-completion] 
+         1. [Bash completions](https://github.com/juven/maven-bash-completion) 
    1. node/npm
       1. [Установить node через пакетный менеджер](https://nodejs.org/ru/download/package-manager/). Выбрать nvm или nvs для windows.
       1. `nvm install 10.13.0`
