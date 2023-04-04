@@ -133,7 +133,7 @@
       1. `wget  -O ~/Downloads/apache-maven-${ver}-bin.tar.gz https://dlcdn.apache.org/maven/maven-3/${ver}/binaries/apache-maven-${ver}-bin.tar.gz`
          1. or download manually: http://maven.apache.org/download.html
       1. `sudo mkdir -p /opt/maven && sudo cp /home/$USER/Downloads/apache-maven-*.tar.gz /opt/maven`
-      1. `sudo tar -xvf "/opt/maven/apache-maven-${ver}-bin.tar.gz"`
+      1. `sudo tar -xvf "/opt/maven/apache-maven-${ver}-bin.tar.gz" -C /opt/maven/`
       1. `sudo sh -c 'echo "export M2_HOME=/opt/maven/apache-maven-'"${ver}"'" >> /etc/profile' && source /etc/profile`
          **OR**
          `echo "export M2_HOME=/opt/maven/apache-maven-${ver}" >> ~/.profile && source ~/.profile`
