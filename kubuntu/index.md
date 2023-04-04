@@ -128,9 +128,9 @@
       1. restart   
    1. AdoptJDK: https://adoptopenjdk.net/installation.html#linux-pkg       
    1. [Maven](http://maven.apache.org). [How to install](https://www.apache-maven.ru/install.html): 
-      1. export ver=3.6.3
-      1. mkdir -p ~/Downloads
-      1. wget  -O ~/Downloads/apache-maven-${ver}-bin.tar.gz https://dlcdn.apache.org/maven/maven-3/${ver}/binaries/apache-maven-${ver}-bin.tar.gz
+      1. `export ver=3.6.3`
+      1. `mkdir -p ~/Downloads`
+      1. `wget  -O ~/Downloads/apache-maven-${ver}-bin.tar.gz https://dlcdn.apache.org/maven/maven-3/${ver}/binaries/apache-maven-${ver}-bin.tar.gz`
          1. or download manually: http://maven.apache.org/download.html
       1. `sudo mkdir -p /opt/maven && sudo cp /home/$USER/Downloads/apache-maven-*.tar.gz /opt/maven`
       1. `sudo tar -xvf "/opt/maven/apache-maven-${ver}-bin.tar.gz"`
