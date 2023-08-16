@@ -143,6 +143,7 @@
          1. [Bash completions](https://github.com/juven/maven-bash-completion) 
    1. node/npm
       1. [Установить node через пакетный менеджер](https://nodejs.org/ru/download/package-manager/). Выбрать nvm или nvs для windows.
+         1. В Windows 11: `winget install jasongin.nvs`
       1. `nvm install 10.13.0`
       2. to switch version call: `nvm use 16.17.1 && nvm alias default 16.17.1`
       3. `npm set editor mcedit`
